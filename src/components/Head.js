@@ -25,6 +25,7 @@ const Head = props => {
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
         crossorigin="anonymous"
       />
+      <link rel="canonical" href="https://www.michaelakintomo.com" />
     </Helmet>
   )
 }

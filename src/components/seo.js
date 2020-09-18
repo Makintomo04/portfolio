@@ -35,6 +35,11 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content:
+            "web development, gatsby, react, javascripy, graphql, html,css, jamstack, engineer, frontend, frameworks, web technologies, art, 3d, blog",
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -49,6 +54,14 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:image`,
           content: `https://www.michaelakintomo.com/static/pesonal_dev_logo2-ddd3789c1af91313b25df2676be31437.png`,
+        },
+        {
+          property: `og:locale`,
+          content: `en_US`,
+        },
+        {
+          property: `og:url`,
+          content: `https://www.michaelakintomo.com`,
         },
         {
           name: `twitter:card`,
