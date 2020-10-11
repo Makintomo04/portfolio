@@ -164,46 +164,48 @@ function AboutContent() {
         </div>
       </div>
       {/* <img src={nameSpinner2} className={aboutStyles.amper} /> */}
-      <p className={aboutStyles.about_para2}>
-        Ultimately, as a developer I'd like to progress into creating mobile
-        applications as well as web apps and also incorporate my other passion
-        in 3D art into my development work to create stunning sites to take user
-        experience and interactions to the next level.
-      </p>
-      <p className={aboutStyles.about_para2}>
-        When I'm not busy coding away, I enjoy gaming{" "}
-        <span role="img" aria-label="game">
-          🎮
-        </span>
-        , learning to play the guitar{" "}
-        <span role="img" aria-label="guitar">
-          🎸
-        </span>
-        , reading blogs{" "}
-        <span role="img" aria-label="book">
-          📖
-        </span>
-        , binge-watching Netflix{" "}
-        <span role="img" aria-label="tv">
-          📺
-        </span>
-        , creating art{" "}
-        <span role="img" aria-label="paint palette">
-          <a
-            style={{ textDecoration: "none" }}
-            href="https://www.madebym1ke.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            🎨
-          </a>
-        </span>
-        and eating good food{" "}
-        <span role="img" aria-label="food">
-          🍲
-        </span>
-        .
-      </p>
+      <div className="paragraph" style={{ display: "flex", flexWrap: "wrap" }}>
+        <p className={aboutStyles.about_para2}>
+          Ultimately, as a developer I'd like to progress into creating mobile
+          applications as well as web apps and also incorporate my other passion
+          in 3D art into my development work to create stunning sites to take
+          user experience and interactions to the next level.
+        </p>
+        <p className={aboutStyles.about_para2}>
+          When I'm not busy coding away, I enjoy gaming{" "}
+          <span role="img" aria-label="game">
+            🎮
+          </span>
+          , learning to play the guitar{" "}
+          <span role="img" aria-label="guitar">
+            🎸
+          </span>
+          , reading blogs{" "}
+          <span role="img" aria-label="book">
+            📖
+          </span>
+          , binge-watching Netflix{" "}
+          <span role="img" aria-label="tv">
+            📺
+          </span>
+          , creating art{" "}
+          <span role="img" aria-label="paint palette">
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://www.madebym1ke.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              🎨
+            </a>
+          </span>
+          and eating good food{" "}
+          <span role="img" aria-label="food">
+            🍲
+          </span>
+          .
+        </p>
+      </div>
       <p className={aboutStyles.about_para2}>
         If you'd like to learn more about what makes me tick <br />
         feel free to{" "}

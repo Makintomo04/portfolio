@@ -40,6 +40,9 @@
   @extend .about_para;
   margin-bottom: 10rem;
   color: black;
+  &:first-of-type {
+    padding-right: 50px;
+  }
 }
 .line_wrap {
   overflow: hidden;
@@ -101,7 +104,7 @@
     height: 100px;
     display: flex;
     align-items: center;
-    border: 2px solid rgba(0, 0, 0, 0.313);
+    // border: 2px solid rgba(0, 0, 0, 0.313);
     padding: 1rem 1.5rem;
     margin: 1rem;
     @include media("<=laptop") {
