@@ -3,6 +3,7 @@ import htmlIcon from "../icons/html_icon.png"
 import cssIcon from "../icons/css_icon.png"
 import jsIcon from "../icons/js_icon.png"
 import gatsbyIcon from "../icons/gatsby.png"
+import jestIcon from "../icons/jest.svg"
 import graphQLIcon from "../icons/graphql.png"
 import gitIcon from "../icons/git_icon.png"
 import csharpIcon from "../icons/csharp_icon.png"
@@ -106,6 +107,14 @@ function AboutContent() {
             <p>REACT</p>
           </div>
           <div className={aboutStyles.skill}>
+            <img
+              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
+              height="64px"
+              alt="Redux icon"
+            />
+            <p>REDUX</p>
+          </div>
+          <div className={aboutStyles.skill}>
             <img src={gatsbyIcon} height="64px" alt="Gatsby icon" />
             <p>GATSBY</p>
           </div>
@@ -116,6 +125,10 @@ function AboutContent() {
           <div className={aboutStyles.skill}>
             <img src={gitIcon} height="64px" alt="GIT icon" />
             <p>GIT</p>
+          </div>
+          <div className={aboutStyles.skill}>
+            <img src={jestIcon} height="64px" alt="JEST icon" />
+            <p>JEST</p>
           </div>
           <div className={aboutStyles.skill}>
             <img src={csharpIcon} height="64px" alt="C Sharp icon" />
