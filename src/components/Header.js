@@ -32,8 +32,8 @@ function Header() {
         </Link>
         <nav className={`${openNav == true && headerStyles.navBg}`}>
           <ul
-            className={`${
-              openNav == true ? headerStyles.openNav : headerStyles.nav
+            className={`${headerStyles.nav} ${
+              openNav == true && headerStyles.openNav 
             }`}
           >
             {/* <li className={headerStyles.li}>
@@ -78,7 +78,8 @@ function Header() {
           </ul>
         </nav>
         <div className={headerStyles.ham} onClick={handleClick}>
-          <i class="fas fa-bars"></i>
+        <span className={`${headerStyles.bar1} ${openNav && headerStyles.rotate }`}></span><span className={`${headerStyles.bar2} ${openNav && headerStyles.rotate }`}></span>
+          {/* <i class="fas fa-bars"></i> */}
         </div>
       </header>
     </div>
