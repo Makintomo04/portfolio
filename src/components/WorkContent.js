@@ -79,7 +79,7 @@ function WorkContent() {
           {data.allContentfulPortfolioWork.edges.map(({ node }) => {
             return (
               <div className={workStyles.card}>
-                <h2 className={workStyles.num}>{`0${node.projectNo}`}</h2>
+              <h2 className={workStyles.num}>{`${node.projectNo <10 ? "0" + node.projectNo : node.projectNo}`}</h2>
                 <div className={workStyles.card__inner}>
                   <div className={workStyles.inner__thumbnail}>
                     <a href={node.liveLink} target="_blank" rel="noreferrer">
