@@ -78,7 +78,7 @@ function WorkContent() {
         <div ref={el => (projects = el)} className={workStyles.grid}>
           {data.allContentfulPortfolioWork.edges.map(({ node }) => {
             return (
-              <div className={workStyles.card}>
+              <div key={node.projectNo <10} className={workStyles.card}>
               <h2 className={workStyles.num}>{`${node.projectNo <10 ? "0" + node.projectNo : node.projectNo}`}</h2>
                 <div className={workStyles.card__inner}>
                   <div className={workStyles.inner__thumbnail}>
