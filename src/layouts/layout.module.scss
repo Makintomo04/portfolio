@@ -5,7 +5,7 @@
 .container {
   max-width: 1440px;
   width: 100%;
-  height: -webkit-fill-available;
+  min-height: 100vh;
 
   margin-bottom: 10rem;
   display: flex;
@@ -25,3 +25,4 @@
 .content {
   flex: 2;
 }
+

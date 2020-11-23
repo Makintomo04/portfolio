@@ -17,8 +17,8 @@ function Hero() {
   useEffect(() => {
     gsap.to([blind1, blind2, blind3], 0.4, {
       delay: 2.5,
-      ease: "power3.out",
-      y: 2000,
+      ease: "expo.inOut",
+      y: -2000,
       stagger: {
         amount: 0.5,
       },

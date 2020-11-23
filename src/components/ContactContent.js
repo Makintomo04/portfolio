@@ -105,11 +105,11 @@ function ContactContent() {
             </li>
             <li>
               <a
-                href="https://twitter.com/MadeByM1KE"
+                href="https://twitter.com/codebyM1ke"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-twitter"></i> MadeByM1KE
+                <i class="fab fa-twitter"></i> CodeByM1KE
               </a>
             </li>
           </ul>

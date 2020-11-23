@@ -17,8 +17,8 @@ const Layout = ({ children, location }) => {
         <div className={layoutStyles.content}>
           <Header />
           <Transition location={location}>{children}</Transition>
-        </div>
 
+        </div>
         <Footer />
       </div>
     </div>
