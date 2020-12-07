@@ -193,7 +193,7 @@ function AboutContent() {
           <span role="img" aria-label="guitar">
             🎸
           </span>
-          , reading blogs{" "}
+          , reading books{" "}
           <span role="img" aria-label="book">
             📖
           </span>
