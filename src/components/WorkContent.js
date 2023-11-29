@@ -77,6 +77,7 @@ function WorkContent() {
       <div className={workStyles.gridContainer}>
         <div ref={el => (projects = el)} className={workStyles.grid}>
           {data.allContentfulPortfolioWork.edges.map(({ node }) => {
+            console.log("@@@@@@@@@@@@",node.githubLink)
             return (
               <div key={node.projectNo <10} className={workStyles.card}>
               <h2 className={workStyles.num}>{`${node.projectNo <10 ? "0" + node.projectNo : node.projectNo}`}</h2>
@@ -100,14 +101,14 @@ function WorkContent() {
                       <p className={workStyles.summary}>{node.projectDesc}</p>
                       <div className={workStyles.buttons}>
                         {" "}
-                        <a
+                        {node.githubLink && <a
                           href={node.githubLink}
                           className={workStyles.projButton}
                           target="_blank"
                           rel="noreferrer"
                         >
                           View Code
-                        </a>
+                        </a>}
                         <a
                           href={node.liveLink}
                           className={workStyles.projButton}

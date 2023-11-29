@@ -102,12 +102,12 @@ function Hero() {
           </div>
           <div>
             <div>
-              <p className={heroStyles.textReveal}>
+              {/* <p className={heroStyles.textReveal}>
                 <span className={heroStyles.arrow}>
                   <i class="fas fa-long-arrow-alt-right"></i>
                 </span>{" "}
                 PSST! Hover Here! <i class="fas fa-palette"></i>
-              </p>
+              </p> */}
 
               <div className={heroStyles.sideWrap}>
                 <div className={heroStyles.side}>
