@@ -78,11 +78,11 @@ function ContactContent() {
           <ul className={contactStyles.social_links}>
             <li>
               <a
-                href="mailto:makintomo04@hotmail.co.uk"
+                href="mailto:dev@michaelakintomo.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fas fa-envelope"></i> Makintomo04@hotmail.co.uk
+                <i class="fas fa-envelope"></i> dev@michaelakintomo.com
               </a>
             </li>
             <li>
