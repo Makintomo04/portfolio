@@ -1,7 +1,8 @@
 @import "../breakpoints/breakpoints";
 .header_wrap {
   min-height: 80px;
-  height: 10vh;
+  // height: 10vh;
+  max-height: 80px;
   width: 100vw;
   position: fixed;
   display: flex;
@@ -16,7 +17,8 @@
 .header {
   // color: red;
   min-height: 80px;
-  height: 10vh;
+  max-height: 80px;
+  // height: 10vh;
   max-width: 1440px;
   display: flex;
   justify-content: space-between;
