@@ -26,6 +26,7 @@ const Head = props => {
         crossorigin="anonymous"
       />
       <link rel="canonical" href="https://www.michaelakintomo.com" />
+      <script async src="https://eu.umami.is/script.js" data-website-id="ceb2266c-2b23-4c05-9f1a-4e42612a18ff"></script>
     </Helmet>
   )
 }
